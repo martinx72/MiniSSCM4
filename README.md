@@ -25,7 +25,7 @@ Now, copy the right config.txt (don't forget the change the file name from this 
 Have fun!
 
 #  
-# To install RPi4/CM4 compatible lr-yabasanshiro core
+# To install RPi4/CM4 compatible yabasanshiro core
 **1**.  
 Upate your RetroSetup script to the latest version.  
 ```markdown
@@ -37,34 +37,40 @@ and then execute the `Update RetroPie-Setup script` feature.
   
   
   
-**2**.  
-download necessary patch/script for RetroPie-Setup
+**2**.
+
+download necessary script for RetroPie-Setup
 ```markdown
-cd ~/RetroPie-Setup/scriptmodules/libretrocores/
-wget https://raw.githubusercontent.com/joolswills/RetroPie-Setup/7fc52613b4c27788bb90530a71231ee67ab65f24/scriptmodules/libretrocores/lr-yabasanshiro.sh
-mkdir lr-yabasanshiro
-cd ~/RetroPie-Setup/scriptmodules/libretrocores/lr-yabasanshiro
-wget https://raw.githubusercontent.com/joolswills/RetroPie-Setup/7fc52613b4c27788bb90530a71231ee67ab65f24/scriptmodules/libretrocores/lr-yabasanshiro/01_shader_hack_rpi4.diff
+cd ~/RetroPie-Setup/scriptmodules/
+wget https://raw.githubusercontent.com/devmiyax/yabause/b96dbd2393a3f9482d37344fd5d1c60fa68cac35/yabause/src/retro_arena/yabasanshiro.sh
+chmod 755 yabasanshiro.sh
 cd ~/RetroPie-Setup/
 sudo ./retropie_setup.sh
 ```
 And now the RetroPie-Setup would be executed again, now, we do as follow steps.  
 --> `Manage packages`   
-<img src="https://raw.githubusercontent.com/martinx72/MiniSSCM4/main/photo/001.png">  
+![](photo/001.png)
   
 -> `Manage experimental packages`   
-<img src="https://raw.githubusercontent.com/martinx72/MiniSSCM4/main/photo/002.png">  
+![](photo/002.png)
   
--> `lr-yabasanshiro` (yes, you have it now!)   
-<img src="https://raw.githubusercontent.com/martinx72/MiniSSCM4/main/photo/003.png">  
+-> `yabasanshiro` 
+![](photo/003.png)
   
 -> `Install from source`  
-<img src="https://raw.githubusercontent.com/martinx72/MiniSSCM4/main/photo/004.png">  
+![](photo/004.png)
+
   
 -> `<Yes>`  
-<img src="https://raw.githubusercontent.com/martinx72/MiniSSCM4/main/photo/005.png">  
-  
+![](photo/005.png)
+
+
 Once the code compiled as expected, then you would copy BIOS/ROM files and restart your EmulationStation.  
 And Now it is about time to have fun! :)
+
+
+## Instruction video.
+
+[![instruction video](https://img.youtube.com/vi/EXMxrL_pqJo/0.jpg)](https://youtu.be/EXMxrL_pqJo?t=0)
 
 
