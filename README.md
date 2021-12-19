@@ -41,7 +41,7 @@ and then execute the `Update RetroPie-Setup script` feature.
 
 download necessary script for RetroPie-Setup
 ```markdown
-cd ~/RetroPie-Setup/scriptmodules/
+cd ~/RetroPie-Setup/scriptmodules/emulators
 wget https://raw.githubusercontent.com/devmiyax/yabause/pi4/yabause/src/retro_arena/yabasanshiro.sh
 chmod 755 yabasanshiro.sh
 cd ~/RetroPie-Setup/
@@ -71,6 +71,6 @@ And Now it is about time to have fun! :)
 
 ## Instruction video.
 
-[![instruction video](https://img.youtube.com/vi/EXMxrL_pqJo/0.jpg)](https://youtu.be/EXMxrL_pqJo?t=0)
+[![instruction video](https://img.youtube.com/vi/tgiJdss_sgQ/0.jpg)](https://youtu.be/tgiJdss_sgQ?t=0)
 
 
